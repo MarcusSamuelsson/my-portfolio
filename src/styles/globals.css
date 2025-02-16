@@ -1,0 +1,35 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Global Text Styles === */
+
+/* Light mode (default) */
+h1, h2, h3, h4, h5, h6, p, li {
+    color: #111827; /* Equivalent to Tailwind's text-gray-900 */
+}
+
+/* Dark mode */
+.dark h1, 
+.dark h2, 
+.dark h3, 
+.dark h4, 
+.dark h5, 
+.dark h6, 
+.dark p, 
+.dark li {
+    color: white; /* Equivalent to Tailwind's dark:text-white */
+}
+
+/* === Optional: Global Font & Spacing === */
+body {
+    font-family: 'Inter', sans-serif; /* Example font */
+    background-color: #ffffff; /* Default light mode background */
+}
+
+.dark body {
+    background-color: #1f2937; /* Equivalent to Tailwind's dark:bg-gray-800 */
+}
+
+/* Ensure <html> or <body> has the .dark class for dark mode to work */
