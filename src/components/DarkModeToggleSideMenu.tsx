@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa'; // Import icons
 import useDarkMode from "@/hooks/useDarkMode";
 

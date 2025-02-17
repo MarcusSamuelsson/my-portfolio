@@ -5,15 +5,9 @@ import DarkModeToggleSideMenu from './DarkModeToggleSideMenu'; // Import the new
 
 const PortfolioSideMenu: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState<boolean>(true);
-  const [darkMode, setDarkMode] = useState<boolean>(false); // Assuming darkMode state is controlled here
 
   const toggleMenu = (): void => {
     setIsExpanded(!isExpanded);
-  };
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    // You can add the logic to actually toggle dark mode here
   };
 
   return (
