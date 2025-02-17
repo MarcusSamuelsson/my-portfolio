@@ -26,7 +26,7 @@ const PortfolioSideMenu: React.FC = () => {
 
       <nav className="space-y-4 flex-grow">
         {/* Overview Link */}
-        <Link href="/portfolio/overview" className="flex items-center space-x-2 text-lg text-gray-900 dark:text-white hover:text-blue-500">
+        <Link href="/portfolio/" className="flex items-center space-x-2 text-lg text-gray-900 dark:text-white hover:text-blue-500">
           <FaHome />
           {isExpanded && <span>Overview</span>}
         </Link>
